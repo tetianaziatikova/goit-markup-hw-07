@@ -1,0 +1,50 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+    width: 570px;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.footer-email-box {
+    position: relative;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.footer-contact-form-input {
+    padding: 15px 295px 15px 16px;
+    background: #2F303A;
+    outline: none;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.contact-form-btn {
+    min-width: 195px;
+    height: 50px;
+    padding: 10px 62px 10px 29px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: $white-color;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.footer-form-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: $white-color;
+    right: 28px;
+    top: 13px;
+}
